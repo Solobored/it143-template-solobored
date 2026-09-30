@@ -1,0 +1,3 @@
+-- Q: How many players are on each team?
+
+-- A: Let's count players in tblPlayerDim, grouped by team, and join to tblTeamDim for the team code...
