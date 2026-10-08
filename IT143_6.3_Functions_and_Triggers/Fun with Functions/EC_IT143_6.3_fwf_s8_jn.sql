@@ -1,0 +1,3 @@
+-- Next question: some contact names have a middle name or a suffix
+-- (e.g., a three-part name). How would fn_get_last_name need to change to
+-- correctly handle a name with more than one space in it?

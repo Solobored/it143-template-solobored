@@ -1,0 +1,7 @@
+-- Q1/Q2: How do we keep track of when a record was last modified, and by whom?
+-- A: An AFTER UPDATE trigger can set both columns every time a row changes.
+--    SUSER_NAME() returns the current login, which covers the "who" part.
+-- https://learn.microsoft.com/en-us/sql/t-sql/statements/create-trigger-transact-sql
+-- https://learn.microsoft.com/en-us/sql/t-sql/functions/suser-name-transact-sql
+-- https://stackoverflow.com/questions/9522982/t-sql-trigger-update
+-- https://stackoverflow.com/questions/4574010/how-to-create-trigger-to-keep-track-of-last-changed-data

@@ -1,0 +1,4 @@
+-- Next question: right now the trigger overwrites last_modified_date and
+-- last_modified_by with no record of the previous value. If we needed an
+-- audit trail of every change (not just the most recent one), how would we
+-- use the Inserted and Deleted tables to log history to a separate table?
